@@ -1,12 +1,14 @@
 
 page-home {
-   ion-header {
-        height: 62px;//by default 56px
-    }
-    ion-searchbar{
-        margin: 0 19px;
+    .header{
         height: 70px;
+  line-height: 40px;
+    }
+    .searchbar{
+        margin: 0 19px;
+        height: 60px;
         width: 314px;
+        border-radius:20px;
     }
  }
 

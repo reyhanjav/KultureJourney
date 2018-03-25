@@ -1,11 +1,61 @@
-<ion-header>
-  <ion-navbar>
+<ion-header no-border>
+  <ion-navbar transparent>
     <ion-title>
-      Discovery
+        <ion-item no-lines>
+            <ion-select [(ngModel)]="trending" big col-6>
+              <ion-option value="t" selected="true">TRENDING</ion-option>
+              <ion-option value="f">FAVORITE</ion-option>
+              <ion-option value="u">UNIQUE</ion-option>
+            </ion-select>
+          </ion-item>
     </ion-title>
+    <ion-buttons end>
+        <button ion-button clear big icon-start><ion-icon name="more" color="dark"></ion-icon></button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-
+<ion-content fullscreen padding>
+  <ion-slides spaceBetween="-14" >
+    <ion-slide >
+        <ion-card>
+            <img src="href=../../assets/imgs/Artikel_3.jpg" rel="nofollow">
+          <ion-card-content>
+            <ion-card-title color="dark-grey">
+              Singkawang
+            </ion-card-title><h3 ion-text color="light-grey">
+           Locals believed that the Tatung parade tradition has lasted for more than 250 years
+            </h3>
+          <br><button ion-button clear big icon-start color="buttons">DISCOVER</button><br><p small ion-text color="light-grey">Event of Kalimantan</p>
+          </ion-card-content>
+        </ion-card>
+  </ion-slide>
+  
+  <ion-slide>
+      <ion-card>
+          <img src="href=../../assets/imgs/Artikel_3.jpg" rel="nofollow">
+        <ion-card-content>
+          <ion-card-title color="dark-grey">
+            Singkawang
+          </ion-card-title><h3 ion-text color="light-grey">
+         Locals believed that the Tatung parade tradition has lasted for more than 250 years
+          </h3>
+          <br><button ion-button clear big icon-start color="buttons">DISCOVER</button><br><p ion-text color="light-grey">Event of Kalimantan</p>
+        </ion-card-content>
+      </ion-card>
+  </ion-slide>
+  <ion-slide>
+      <ion-card>
+          <img src="href=../../assets/imgs/Artikel_3.jpg" rel="nofollow">
+        <ion-card-content>
+          <ion-card-title color="dark-grey">
+            Singkawang
+          </ion-card-title><h3 ion-text color="light-grey">
+         Locals believed that the Tatung parade tradition has lasted for more than 250 years
+          </h3>
+          <br><button ion-button clear big icon-start color="buttons">DISCOVER</button><br><p ion-text color="light-grey">Event of Kalimantan</p>
+        </ion-card-content>
+      </ion-card>
+  </ion-slide>
+  </ion-slides>
 </ion-content>
