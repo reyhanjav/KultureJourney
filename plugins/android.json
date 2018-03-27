@@ -1,0 +1,30 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-googleplus": {
+      "PACKAGE_NAME": "com.kulturejourney.KJ"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.kulturejourney.KJ"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.kulturejourney.KJ"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.kulturejourney.KJ"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.kulturejourney.KJ"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.kulturejourney.KJ"
+    }
+  },
+  "dependent_plugins": {}
+}

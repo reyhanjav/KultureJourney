@@ -1,17 +1,25 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Profile
-    </ion-title>
-  </ion-navbar>
+	<ion-navbar>
+		<button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title>Log in</ion-title>
+	</ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+	<form (ngSubmit)="login()" [formGroup]="loginForm">
+	
+
+		<div padding-horizontal>
+
+			<ion-list>
+
+				<button ion-button icon-left block clear (click)="loginWithGoogle()">
+					<ion-icon name="logo-google"></ion-icon>
+					Log in with Google
+				</button>
+			</ion-list>
+		</div>
+	</form>
 </ion-content>
