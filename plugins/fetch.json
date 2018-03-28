@@ -5,7 +5,9 @@
       "id": "cordova-plugin-googleplus@^5.2.2"
     },
     "is_top_level": true,
-    "variables": {}
+    "variables": {
+      "REVERSED_CLIENT_ID": "com.googleusercontent.app.413081514719-ke9mg8deq1uu7tupd7bh63bk46cf100i"
+    }
   },
   "cordova-plugin-whitelist": {
     "source": {

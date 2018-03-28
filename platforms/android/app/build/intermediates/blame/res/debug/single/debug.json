@@ -4,16 +4,16 @@
         "source": "C:\\Users\\storm\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\3d571429c177b17428e58bd99683b4ae\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "D:\\TUGAS\\Joints\\Ionic\\KultureJourney\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "C:\\Users\\storm\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\3d571429c177b17428e58bd99683b4ae\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "D:\\TUGAS\\Joints\\Ionic\\KultureJourney\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\storm\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\3d571429c177b17428e58bd99683b4ae\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "D:\\TUGAS\\Joints\\Ionic\\KultureJourney\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\storm\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\3d571429c177b17428e58bd99683b4ae\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
-        "merged": "D:\\TUGAS\\Joints\\Ionic\\KultureJourney\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\storm\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\3d571429c177b17428e58bd99683b4ae\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "merged": "D:\\TUGAS\\Joints\\Ionic\\KultureJourney\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark.xml.flat",
+        "source": "C:\\Users\\storm\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\3d571429c177b17428e58bd99683b4ae\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "D:\\TUGAS\\Joints\\Ionic\\KultureJourney\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\storm\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\3d571429c177b17428e58bd99683b4ae\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
-        "merged": "D:\\TUGAS\\Joints\\Ionic\\KultureJourney\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
-        "source": "D:\\TUGAS\\Joints\\Ionic\\KultureJourney\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
-    },
-    {
         "merged": "D:\\TUGAS\\Joints\\Ionic\\KultureJourney\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
         "source": "C:\\Users\\storm\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\3d571429c177b17428e58bd99683b4ae\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "D:\\TUGAS\\Joints\\Ionic\\KultureJourney\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "D:\\TUGAS\\Joints\\Ionic\\KultureJourney\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
     },
     {
         "merged": "D:\\TUGAS\\Joints\\Ionic\\KultureJourney\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_tint.xml.flat",

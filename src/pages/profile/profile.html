@@ -15,10 +15,19 @@
 
 			<ion-list>
 
-				<button ion-button icon-left block clear (click)="loginWithGoogle()">
-					<ion-icon name="logo-google"></ion-icon>
-					Log in with Google
-				</button>
+
+					<ion-list-header *ngIf="auth.getEmail()">{{auth.getEmail()}}</ion-list-header>
+			
+					<ion-item (click)="logout()" *ngIf="auth.authenticated">
+						<ion-icon name="log-out" item-left></ion-icon>
+						Log out
+					</ion-item>
+			
+					<ion-item (click)="loginWithGoogle()" *ngIf="!auth.authenticated">
+						<ion-icon name="log-in" item-left></ion-icon>
+						Log in with Google
+					</ion-item>
+
 			</ion-list>
 		</div>
 	</form>

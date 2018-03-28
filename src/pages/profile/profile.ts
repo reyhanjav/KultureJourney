@@ -47,5 +47,13 @@ export class ProfilePage {
       () => this.navCtrl.setRoot(HomePage),
       error => console.log(error.message)
     );
-  }
+	}
+
+	logout() {
+		this.auth.signOut()
+    .then(
+      () => this.navCtrl.setRoot(HomePage),
+      error => console.log(error.message)
+    );
+	}
 }

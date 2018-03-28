@@ -48,7 +48,7 @@
   "cordova": {
     "plugins": {
       "cordova-plugin-googleplus": {
-        "REVERSED_CLIENT_ID": "com.googleusercontent.apps.413081514719-ke9mg8deq1uu7tupd7bh63bk46cf100i"
+        "REVERSED_CLIENT_ID": "com.googleusercontent.app.413081514719-ke9mg8deq1uu7tupd7bh63bk46cf100i"
       },
       "cordova-plugin-whitelist": {},
       "cordova-plugin-device": {},

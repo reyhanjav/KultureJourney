@@ -36576,5 +36576,171 @@ page-home .searchbar {
   margin: 0 19px;
   height: 60px;
   width: 314px;
-  border-radius: 20px;
+}
+
+page-home .searchbar-md .searchbar-input {
+  border-radius: 4px;
+}
+
+page-home .item {
+  max-width: 90% !important;
+}
+
+page-home .label {
+  margin: 0;
+}
+
+page-home .item-inner {
+  padding-right: 0px !important;
+}
+
+page-home .icon {
+  font-size: 30px;
+}
+
+page-home .select {
+  font-size: 13pt;
+  font-weight: 600;
+}
+
+page-home .slides {
+  height: 40%;
+  margin: 0 auto;
+}
+
+page-home .slide {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+}
+
+page-home .swiper-container {
+  overflow: inherit !important;
+}
+
+page-home .card, page-home .list-inset {
+  overflow: hidden;
+  margin: 20px 10px;
+  border-radius: 0px;
+  background-color: #fff;
+}
+
+page-home .card {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  -webkit-box-shadow: 0 0px 0px rgba(78, 78, 78, 0.2);
+  box-shadow: 0 0px 0px rgba(78, 78, 78, 0.2);
+}
+
+page-home .card .item {
+  border-left: 0;
+  border-right: 0;
+}
+
+page-home .card img {
+  border-radius: 6px;
+}
+
+page-home .card-title {
+  padding: 4px;
+  font-size: 12pt;
+  font-weight: 400;
+}
+
+page-home .card-content {
+  padding: 0px;
+}
+
+page-home .card .item:first-child {
+  border-top: 0;
+}
+
+page-home .card .item:last-child {
+  border-bottom: 0;
+}
+
+page-home .padding .card, page-home .padding .list-inset {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+page-home .card .item:first-child, page-home .list-inset .item:first-child, page-home .padding > .list .item:first-child {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+page-home .card .item:first-child .item-content, page-home .list-inset .item:first-child .item-content, page-home .padding > .list .item:first-child .item-content {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+page-home .card .item:last-child, page-home .list-inset .item:last-child, page-home .padding > .list .item:last-child {
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+page-home .card .item:last-child .item-content, page-home .list-inset .item:last-child .item-content, page-home .padding > .list .item:last-child .item-content {
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+page-home .card .item:last-child, page-home .list-inset .item:last-child {
+  margin-bottom: -1px;
+}
+
+page-home .card .item, page-home .list-inset .item, page-home .padding > .list .item, page-home .padding-horizontal > .list .item {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+page-home .card .item.item-input input, page-home .list-inset .item.item-input input, page-home .padding > .list .item.item-input input, page-home .padding-horizontal > .list .item.item-input input {
+  padding-right: 44px;
+}
+
+page-home .padding-left > .list .item {
+  margin-left: 0;
+}
+
+page-home .padding-right > .list .item {
+  margin-right: 0;
+}
+
+page-home h3 {
+  text-align: center;
+  word-spacing: 2px;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+page-home .list-header {
+  margin: 0 10px;
+  font-size: 15pt;
+  font-weight: 500;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: -20px;
+}
+
+page-home .swiper-container-horizontal > .swiper-pagination {
+  bottom: 13%;
+  z-index: 99 !important;
+  padding: 3px;
+  margin: 0 17px;
+  text-align: left;
+}
+
+page-home .swiper-container-horizontal > .swiper-pagination .swiper-pagination-bullet {
+  background: #FFF;
+  margin: 0 5px;
+  width: 5px;
+  height: 5px;
+  opacity: 1;
+}
+
+page-home .swiper-container-horizontal > .swiper-pagination .swiper-pagination-bullet-active {
+  background: #fff;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  vertical-align: -3px;
 }
