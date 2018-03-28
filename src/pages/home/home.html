@@ -1,6 +1,7 @@
 <ion-header>
   <ion-navbar transparent>
-    <ion-searchbar
+    <ion-searchbar 
+  placeholder="search anything"
   [(ngModel)]="myInput"
   [showCancelButton]="shouldShowCancel"
   (ionInput)="onInput($event)"
@@ -9,75 +10,109 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content fullscreen padding>
-    <ion-slides show-pager="false">
-  <ion-slide *ngFor="let slide of slides">
-  <ion-card>
-    <img src="href=../../assets/imgs/1604996_English_KeyArt-OfficialVideoImage_6d99329f-2f58-e711-8175-020165574d09.jpg" rel="nofollow">
-  </ion-card>
+<ion-content>
+  <ion-list>
+<ion-slides pager loop>
+  <ion-slide>
+    <img src="href=../../assets/imgs/tribe.jpg" rel="nofollow">
+  </ion-slide>
+
+  <ion-slide>
+    <img src="href=../../assets/imgs/tribe.jpg" rel="nofollow">
+  </ion-slide>
+
+  <ion-slide>
+    <img src="href=../../assets/imgs/tribe.jpg" rel="nofollow">
+  </ion-slide>
+</ion-slides>
+
+<ion-list-header no-lines>Best Choice</ion-list-header>
+
+<ion-slides show-pager="false" spaceBetween="-4" padding loop>
+    
+  <ion-slide>
+    
+      <ion-card>
+          <img src="href=../../assets/imgs/lombok.jpg" rel="nofollow">
+          <ion-card-content>
+            <ion-card-title color="dark-grey">
+                Closer with lombok
+            </ion-card-title><h3 ion-text color="light-grey">
+                Get to know the culture of lombok with our trusted
+                host and professional guide.
+            </h3>
+          </ion-card-content>
+        </ion-card>
 </ion-slide>
 
 <ion-slide>
   <ion-card>
-    <img src="href=../../assets/imgs/1604996_English_KeyArt-OfficialVideoImage_6d99329f-2f58-e711-8175-020165574d09.jpg" rel="nofollow">
+    <img src="href=../../assets/imgs/lombok.jpg" rel="nofollow">
+    <ion-card-content>
+      <ion-card-title color="dark-grey">
+        Closer with lombok
+      </ion-card-title><h3 ion-text color="light-grey">
+          Get to know the culture of lombok with our trusted
+          host and professional guide.
+      </h3>
+    </ion-card-content>
   </ion-card>
 </ion-slide>
 <ion-slide>
-  <ion-card>
-    <img src="href=../../assets/imgs/1604996_English_KeyArt-OfficialVideoImage_6d99329f-2f58-e711-8175-020165574d09.jpg" rel="nofollow">
-  </ion-card>
+    <ion-card>
+        <img src="href=../../assets/imgs/lombok.jpg" rel="nofollow">
+        <ion-card-content>
+          <ion-card-title color="dark-grey">
+              Closer with lombok
+          </ion-card-title><h3 ion-text color="light-grey">
+              Get to know the culture of lombok with our trusted
+              host and professional guide.
+          </h3>
+        </ion-card-content>
+      </ion-card>
 </ion-slide>
 
   <ion-slide>
-  <ion-card>
-    <img src="href=../../assets/imgs/1604996_English_KeyArt-OfficialVideoImage_6d99329f-2f58-e711-8175-020165574d09.jpg" rel="nofollow">
-  </ion-card>
+      <ion-card>
+          <img src="href=../../assets/imgs/lombok.jpg" rel="nofollow">
+          <ion-card-content>
+            <ion-card-title color="dark-grey">
+                Closer with lombok
+            </ion-card-title><h3 ion-text color="light-grey">
+                Get to know the culture of lombok with our trusted
+                host and professional guide.
+            </h3>
+          </ion-card-content>
+        </ion-card>
 </ion-slide>
 <ion-slide>
-  <ion-card>
-    <img src="href=../../assets/imgs/1604996_English_KeyArt-OfficialVideoImage_6d99329f-2f58-e711-8175-020165574d09.jpg" rel="nofollow">
-  </ion-card>
+    <ion-card>
+        <img src="href=../../assets/imgs/lombok.jpg" rel="nofollow">
+        <ion-card-content>
+          <ion-card-title color="dark-grey">
+              Closer with lombok
+          </ion-card-title><h3 ion-text color="light-grey">
+              Get to know the culture of lombok with our trusted
+              host and professional guide.
+          </h3>
+        </ion-card-content>
+      </ion-card>
 </ion-slide>
 <ion-slide>
-  <ion-card>
-    <img src="href=../../assets/imgs/1604996_English_KeyArt-OfficialVideoImage_6d99329f-2f58-e711-8175-020165574d09.jpg" rel="nofollow">
-  </ion-card>
+    <ion-card>
+        <img src="href=../../assets/imgs/lombok.jpg" rel="nofollow">
+        <ion-card-content>
+          <ion-card-title color="dark-grey">
+              Closer with lombok
+          </ion-card-title><h3 ion-text color="light-grey">
+              Get to know the culture of lombok with our trusted
+              host and professional guide.
+          </h3>
+        </ion-card-content>
+      </ion-card>
 </ion-slide>
 </ion-slides>
+</ion-list>
 
-<ion-slides show-pager="false">
-  <ion-slide *ngFor="let slide of slides">
-  <ion-card>
-    <img src="href=../../assets/imgs/1604996_English_KeyArt-OfficialVideoImage_6d99329f-2f58-e711-8175-020165574d09.jpg" rel="nofollow">
-  </ion-card>
-</ion-slide>
-
-<ion-slide>
-  <ion-card>
-    <img src="href=../../assets/imgs/1604996_English_KeyArt-OfficialVideoImage_6d99329f-2f58-e711-8175-020165574d09.jpg" rel="nofollow">
-  </ion-card>
-</ion-slide>
-<ion-slide>
-  <ion-card>
-    <img src="href=../../assets/imgs/1604996_English_KeyArt-OfficialVideoImage_6d99329f-2f58-e711-8175-020165574d09.jpg" rel="nofollow">
-  </ion-card>
-</ion-slide>
-
-  <ion-slide>
-  <ion-card>
-    <img src="href=../../assets/imgs/1604996_English_KeyArt-OfficialVideoImage_6d99329f-2f58-e711-8175-020165574d09.jpg" rel="nofollow">
-  </ion-card>
-</ion-slide>
-<ion-slide>
-  <ion-card>
-    <img src="href=../../assets/imgs/1604996_English_KeyArt-OfficialVideoImage_6d99329f-2f58-e711-8175-020165574d09.jpg" rel="nofollow">
-  </ion-card>
-</ion-slide>
-<ion-slide>
-  <ion-card>
-    <img src="href=../../assets/imgs/1604996_English_KeyArt-OfficialVideoImage_6d99329f-2f58-e711-8175-020165574d09.jpg" rel="nofollow">
-  </ion-card>
-</ion-slide>
-</ion-slides>
 
 </ion-content>
