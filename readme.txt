@@ -29,3 +29,4 @@ Fungsi yang perlu ditambahkan:
 -Fungsi search all
 -Fungsi sort
 -Fungsi Generate blog (buat jurnal)
+- ERD belum
