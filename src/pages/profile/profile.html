@@ -1,21 +1,99 @@
-<ion-header>
-	<ion-navbar>
-		<button ion-button menuToggle>
-			<ion-icon name="menu"></ion-icon>
-		</button>
-		<ion-title>Log in</ion-title>
+<ion-header no-border>
+	<ion-navbar transparent>
+	  <ion-title no lines>
+		  Profile 
+	  </ion-title>
 	</ion-navbar>
-</ion-header>
+ </ion-header>
 
-<ion-content>
+<ion-content padding>
 	<form (ngSubmit)="login()" [formGroup]="loginForm">
-	
+			<ion-item no-lines>
+				<ion-avatar>
+					<img src="href=../../assets/imgs/lombok.jpg" rel="nofollow" class = "center">
+				</ion-avatar>
+			</ion-item>
+			<h4 class="mid">Achmad Ismail Rivaldi</h4>
 
-		<div padding-horizontal>
+			<ion-item no-lines>
+				<h4 ion-text color ="dark-grey">Manage Your Hosts</h4>
+			</ion-item>
 
-			<ion-list>
+			<ion-slides show-pager="false" spaceBetween="-4" padding loop>
+			<ion-slide>
+				<ion-card>
+					<img src="href=../../assets/imgs/lombok.jpg" rel="nofollow">
+					<ion-card-content>
+						<ion-item>
+							<h4 item-left>TRADITION</h4>
+							<h4 item-right>up to <b>3 Guests</b></h4>
+						</ion-item>
+						<ion-card-title color="dark-grey">
+							Kampung Naga
+						<h3 ion-text color="dark-grey">
+							<ion-icon name="map"></ion-icon> Sukabumi, West Java</h3>
+						</ion-card-title>
+						
+						<h3 ion-text color="light-grey">
+							For once in a year,you have the chance to explore all the
+							magnificient wonders of Labuan Bajo and all the unique tradition
+							and culture of the local people .</h3>
+					</ion-card-content>
+				</ion-card>
+			</ion-slide>
+			<ion-slide>
+				<ion-card>
+					<img src="href=../../assets/imgs/lombok.jpg" rel="nofollow">
+					<ion-card-content>
+						<ion-item>
+							<h4 item-left>TRADITION</h4>
+							<h4 item-right>up to <b>3 Guests</b></h4>
+						</ion-item>
+						<ion-card-title color="dark-grey">
+							Kampung Naga
+						<h3 ion-text color="dark-grey">
+							<ion-icon name="map"></ion-icon> Sukabumi, West Java</h3>
+						</ion-card-title>
+						
+						<h3 ion-text color="light-grey">
+							For once in a year,you have the chance to explore all the
+							magnificient wonders of Labuan Bajo and all the unique tradition
+							and culture of the local people .</h3>
+					</ion-card-content>
+				</ion-card>
+			</ion-slide>
+			</ion-slides>
 
-
+			<ion-item>
+			<h4 ion-text color ="dark-grey">Your Journal</h4>
+			<ion-slides show-pager="false" spaceBetween="-4" padding loop>
+					<ion-slide>
+						<ion-card>
+							<img src="href=../../assets/imgs/lombok.jpg" rel="nofollow">
+							<ion-card-content>
+								<ion-card-title color="dark-grey">
+									Closer with lombok
+								</ion-card-title><h3 ion-text color="light-grey">
+									Get to know the culture of lombok with our trusted
+									host and professional guide.</h3>
+							</ion-card-content>
+						</ion-card>
+					</ion-slide>
+					<ion-slide>
+						<ion-card>
+							<img src="href=../../assets/imgs/lombok.jpg" rel="nofollow">
+								<ion-card-content>
+									<ion-card-title color="dark-grey">
+										Closer with lombok
+									</ion-card-title><h3 ion-text color="light-grey">
+										Get to know the culture of lombok with our trusted
+										host and professional guide.
+									</h3>
+								</ion-card-content>
+						</ion-card>
+					</ion-slide>
+					</ion-slides>
+					</ion-item>
 					<ion-list-header *ngIf="auth.getEmail()">{{auth.getEmail()}}</ion-list-header>
 			
 					<ion-item (click)="logout()" *ngIf="auth.authenticated">
@@ -27,8 +105,5 @@
 						<ion-icon name="log-in" item-left></ion-icon>
 						Log in with Google
 					</ion-item>
-
-			</ion-list>
-		</div>
 	</form>
 </ion-content>
