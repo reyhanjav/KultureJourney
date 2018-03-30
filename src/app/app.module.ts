@@ -3,9 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import {AngularFireModule} from 'angularfire2';
+import { AngularFireAuth } from 'angularfire2/auth';
 import {AngularFireDatabaseModule} from 'angularfire2/database';
+import { AuthService } from '../services/auth.service';
 
 import { DiscoveryPage } from '../pages/discovery/discovery';
+import { DiscoveryReadPage } from '../pages/discovery-read/discovery-read';
+
 import { BookmarkPage } from '../pages/bookmark/bookmark';
 import { HomePage } from '../pages/home/home';
 import { ProfilePage } from '../pages/profile/profile';
@@ -28,6 +32,7 @@ export const firebaseConfig = {
   declarations: [
     MyApp,
     DiscoveryPage,
+    DiscoveryReadPage,
     BookmarkPage,
     HomePage,
     ProfilePage,
@@ -43,6 +48,7 @@ export const firebaseConfig = {
   entryComponents: [
     MyApp,
     DiscoveryPage,
+    DiscoveryReadPage,
     BookmarkPage,
     HomePage,
     ProfilePage,
@@ -50,6 +56,8 @@ export const firebaseConfig = {
   ],
   providers: [
     StatusBar,
+    AngularFireAuth,
+    AuthService,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
